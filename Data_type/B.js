@@ -12,4 +12,3 @@ rl.on('line', (input) => {
   console.log(parseFloat(values[4]));
   rl.close();
 });
-// ,
