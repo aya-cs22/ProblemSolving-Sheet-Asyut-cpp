@@ -14,7 +14,7 @@ int main()
     cin>>n>>m>>l;
     cout<<min(n,min(m,l))<<"\n";
     cout<<min(n, max(m,l))<<"\n";
-    cout<<max(n, max(m, l))<<"\n \n";
+    cout<<max(n, max(m, l))<<"\n\n";
     cout<<n<<"\n";
     cout<<m<<"\n";
     cout<<l<<"\n";
