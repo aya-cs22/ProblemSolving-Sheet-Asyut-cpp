@@ -13,7 +13,10 @@ int main()
     int n, m, l;
     cin>>n>>m>>l;
     cout<<min(n,min(m,l))<<"\n";
-    cout<<min(n, max(m,l))<<"\n";
+    if(n > m && n > l)
+        cout<<min(n,max(l,m))<<"\n";
+    else
+        cout<<max(n,min(l,m))<<"\n";
     cout<<max(n, max(m, l))<<"\n\n";
     cout<<n<<"\n";
     cout<<m<<"\n";
