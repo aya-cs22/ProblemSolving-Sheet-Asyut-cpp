@@ -6,6 +6,7 @@ using namespace std;
  * Description: this program prompts the user to enter a mathematical expression
  * and if the mathematical expression is true print Yes
  * else calculate this and print output
+ * Return: Always 0 (Success)
  */
 int main()
 {
