@@ -59,3 +59,37 @@ int main()
     }
     return 0;
 }
+// another code is correct tooo
+int main()
+{
+    int x, y, i = 0 , j = 0, even = 0, odd = 0;
+    cin>>x>>y;
+    if (x == 0 && y == 0)
+        cout<<"NO";
+    else
+    {
+
+        for(j = 0; j< 100; j++)
+        {
+            odd =0 , even = 0;
+            for(i = j; i< x +y + j; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    even += 1;
+                }
+                else
+                {
+                    odd += 1;
+                }
+            }
+            if(x == odd && y == even)
+            {
+                cout<<"YES";
+                return 0;
+            }
+    }
+    cout<<"NO";
+    }
+    return 0;
+}
