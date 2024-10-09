@@ -2,7 +2,7 @@
 using namespace std;
 /**
  * main - Entry point in this program.
- * DEscription: this program prompts the user to enter number(n)
+ * Description: this program prompts the user to enter number(n)
  * and then Print all even numbers between 1 and N inclusive in separate lines.
  * if there are no even numbers print -1.
  * Return: Always 0 (Success)
