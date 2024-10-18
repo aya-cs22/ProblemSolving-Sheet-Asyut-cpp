@@ -1,12 +1,12 @@
 #include<iostream>
 #include <map>
+using namespace std;
 /**
  * main - Entry point in this program
  * Description: prompts the user to enter  an array a
  * of n lements, and then print any value that appears at least three times or print -1 if there is no such value.
  * Return: Always 0 (Success)
  */
-using namespace std;
 int main()
 {
     int num_case;
